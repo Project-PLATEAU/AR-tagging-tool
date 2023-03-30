@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["http://localhost:3000", "https://plateauyokohama-development.firebaseapp.com", "https://plateauyokohama-development.web.app"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

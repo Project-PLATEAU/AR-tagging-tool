@@ -1,0 +1,25 @@
+{
+  "functions": {
+    "source": ".",
+    "predeploy": [
+      "yarn install",
+      "yarn build",
+      "npx tsc --skipLibCheck functions/firebaseFunctions.ts"
+    ],
+    "runtime": "nodejs16"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextApp"
+      }
+    ]
+  }
+}
