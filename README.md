@@ -1,4 +1,5 @@
 # FY2022 Project PLATEAU UC22-035「XR技術を用いた体感型アーバンプランニングツール」の成果物（ARタグ付けアプリ）
+### AR-tagging-tool
 ![スクリーンショット 2023-03-23 170944](https://user-images.githubusercontent.com/79615787/227141611-d2cf11f2-42ea-45b7-8754-88c9a93e789b.png)
 
 
@@ -11,7 +12,8 @@ PLATEAUの3D都市モデルとウェブAR技術を組み合わせたスマート
 ### ユースケースの概要
 
 アーバンプランニングのプロセスでは、開発側のデベロッパーや行政は市民参画の促進を試みてきたが、実際には現状やプランの認知の難しさやコミュニケーションツールの不足といった課題があった。
-本アプリは、3D都市モデルおよびXRを用いた直感的かつ体感的なアーバンプランニングにおけるコミュニケーションツールを提供し、まちづくりへの市民参加を促進することを目的としています。
+本アプリは、3D都市モデルおよびXRを用いた直感的かつ体感的なアーバンプランニングにおけるコミュニケーションツールを提供し、まちづくりへの市民参加を促進することを目的としています。  
+詳細は[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0025_ver01.pdf)を参照してください。
 
 ### 開発システムの概要
 
@@ -224,7 +226,7 @@ nextjsでfirebase deployをすると、packagingが100Mを超えると400 Unknow
 
 ## 参考資料
 
-* XR技術を用いた体感型アーバンプランニングツール技術検証レポート（近日公開予定）: [https://www.mlit.go.jp/plateau/libraries/technical-reports/](https://www.mlit.go.jp/plateau/libraries/technical-reports/)
-* PLATEAU Web サイト Use caseページ「XR技術を用いた体感型アーバンプランニングツール」: [https://www.mlit.go.jp/plateau/use-case/](https://www.mlit.go.jp/plateau/use-case/)
+* XR技術を用いた体感型アーバンプランニングツール技術検証レポート: <https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0025_ver01.pdf>
+* PLATEAU Web サイト Use caseページ「XR技術を用いた体感型アーバンプランニングツール」:<https://www.mlit.go.jp/plateau/use-case/uc22-035/>
 * [AR.js](https://ar-js-org.github.io/AR.js-Docs/)
 * [Three.js](https://threejs.org)
